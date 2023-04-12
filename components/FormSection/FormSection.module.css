@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  width: 90vw;
+  margin: 9rem auto;
+  justify-content: space-evenly;
+  gap: 3rem;
+}
+
+.form {
+  flex: 1;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 5rem;
+}
+
+.inputContainer > input,
+.inputContainer > textarea {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  padding: 0.5rem 1rem;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.info {
+  margin: 1rem 0;
+}
+
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column;
+  }
+}

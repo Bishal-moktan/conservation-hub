@@ -1,0 +1,17 @@
+.container {
+  width: 100%;
+  height: 70vh;
+  background: url('../../../public/images/landing3.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-white);
+}
+
+.container h1 {
+  font-size: 4rem;
+}

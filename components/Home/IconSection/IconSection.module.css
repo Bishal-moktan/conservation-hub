@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  width: 90vw;
+  margin: 0 auto;
+  justify-content: space-evenly;
+}
+
+.iconContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  width: 9rem;
+  height: 9rem;
+}
+
+.icon > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column;
+  }
+}

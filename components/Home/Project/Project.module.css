@@ -1,0 +1,44 @@
+.container {
+  width: 90vw;
+  margin: 6rem auto;
+}
+
+.container h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.contentContainer {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 3rem;
+}
+
+.content {
+  padding: 15rem 2rem 2rem;
+  color: var(--color-white);
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  border-radius: 1rem;
+}
+
+.content:nth-child(1) {
+  background: url('../../../public/images/monitor.jpg');
+  background-size: cover;
+}
+
+.content:nth-child(2) {
+  background: url('../../../public/images/planting.jpg');
+  background-size: cover;
+}
+
+.content:nth-child(3) {
+  background: url('../../../public/images/under.jpg');
+  background-size: cover;
+}
+
+@media (max-width: 900px) {
+  .contentContainer {
+    flex-direction: column;
+  }
+}
