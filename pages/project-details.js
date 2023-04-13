@@ -1,8 +1,9 @@
-import AboutLanding from '@/components/About/AboutLanding/AboutLanding';
-import Intro from '@/components/Home/Intro/Intro';
+import Landing from '@/components/Landing/Landing';
+import ProjectStatus from '@/components/ProjectStatus/ProjectStatus';
+import Results from '@/components/Results/Results';
 import Head from 'next/head';
 
-export default function About() {
+export default function ProjectDetails() {
   return (
     <>
       <Head>
@@ -12,8 +13,9 @@ export default function About() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <AboutLanding title={'About US'} />
-        <Intro />
+        <Landing />
+        <ProjectStatus />
+        <Results />
       </main>
     </>
   );

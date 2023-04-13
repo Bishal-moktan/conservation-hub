@@ -28,6 +28,10 @@ function NavScrollExample() {
       name: 'Contact',
       path: '/contact',
     },
+    {
+      name: 'Project Details',
+      path: '/project-details',
+    },
   ];
   return (
     <>

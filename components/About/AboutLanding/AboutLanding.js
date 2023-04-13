@@ -1,9 +1,9 @@
 import styles from './AboutLanding.module.css';
 
-const AboutLanding = () => {
+const AboutLanding = ({ title }) => {
   return (
     <div className={styles.container}>
-      <h1>About Us</h1>
+      <h1>{title}</h1>
     </div>
   );
 };

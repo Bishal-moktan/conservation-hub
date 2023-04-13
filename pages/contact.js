@@ -2,7 +2,7 @@ import ContactLanding from '@/components/ContactLanding/ContactLanding';
 import FormSection from '@/components/FormSection/FormSection';
 import Head from 'next/head';
 
-export default function Home() {
+export default function Contact() {
   return (
     <>
       <Head>
